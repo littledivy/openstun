@@ -7,6 +7,8 @@ npm i @divy-work/electron-splashscreen
 ```
 
 Elegant splashscreen for your cool electron apps.
+![build](https://github.com/divy-work/openstun/workflows/build/badge.svg)
+
 
 ### Usage
 
