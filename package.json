@@ -1,0 +1,22 @@
+{
+  "name": "@divy-work/openstuns",
+  "version": "1.0.0",
+  "description": "List of open stun/turn servers available for your next WebRTC project.",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build",
+    "example": "tsc ./examples/sample.ts && node ./examples/sample.js"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Divy Srivastava <dj.srivastava23@gmail.com>",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.0"
+  }
+}
