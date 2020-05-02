@@ -1,6 +1,7 @@
 ## openstun (wip)
 
 Collection of STUN/TURN servers for direct use in your next WebRTC.
+![build](https://github.com/divy-work/openstun/workflows/build/badge.svg)
 
 ## TODOs
 
