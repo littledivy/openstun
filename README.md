@@ -1,27 +1,10 @@
-## electron-splashscreen
+## openstun (wip)
 
-![](./assets/demo.gif)
+Collection of STUN/TURN servers for direct use in your next WebRTC.
 
-```sh
-npm i @divy-work/electron-splashscreen
-```
+## TODOs
 
-Elegant splashscreen for your cool electron apps.
-
-### Usage
-
-```js
-var Splash = require('@divy-work/electron-splashscreen');
-
-var splashscreen = new Splash({
-  title: 'My app.',
-  description: 'My super cool app.'
-})
-
-var splashscreenInstance = splashscreen.start();
-
-setTimeout(splashscreenInstance.destroy, 5000)
-```
+* Realtime connectivity test for turn/stun lists.
 
 ### Example
 Clone the repo, install the dependencies and then run
